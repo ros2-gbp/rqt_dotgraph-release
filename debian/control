@@ -1,0 +1,12 @@
+Source: ros-kilted-rqt-dotgraph
+Section: misc
+Priority: optional
+Maintainer: Alexander Xydes <alexander.l.xydes.civ@us.navy.mil>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-kilted-ament-copyright <!nocheck>, ros-kilted-ament-flake8 <!nocheck>, ros-kilted-ament-pep257 <!nocheck>, ros-kilted-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-rqt-dotgraph
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-sip-dev, qtbase5-dev, ros-kilted-ament-index-python, ros-kilted-python-qt-binding, ros-kilted-qt-dotgraph (>= 1.1.2), ros-kilted-qt-gui-py-common, ros-kilted-rqt-graph, ros-kilted-rqt-gui, ros-kilted-rqt-gui-py, ros-kilted-std-msgs, shiboken2, ros-kilted-ros-workspace
+Description: rqt GUI plugin to visualize dot graphs.
