@@ -1,3 +1,26 @@
+## rqt_dotgraph (jazzy) - 0.0.5-1
+
+The packages in the `rqt_dotgraph` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy rqt_dotgraph` on `Fri, 12 Sep 2025 15:51:02 -0000`
+
+The `rqt_dotgraph` package was released.
+
+Version of package(s) in repository `rqt_dotgraph`:
+
+- upstream repository: https://github.com/niwcpac/rqt_dotgraph.git
+- release repository: https://github.com/ros2-gbp/rqt_dotgraph-release.git
+- rosdistro version: `0.0.4-1`
+- old version: `0.0.4-1`
+- new version: `0.0.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rqt_dotgraph (humble) - 0.0.5-1
 
 The packages in the `rqt_dotgraph` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble rqt_dotgraph` on `Fri, 12 Sep 2025 15:45:29 -0000`
