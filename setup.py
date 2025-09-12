@@ -6,7 +6,7 @@ PACKAGE_NAME = "rqt_dotgraph"
 
 setup(
     name=PACKAGE_NAME,
-    version="0.0.4",
+    version="0.0.5",
     packages=[PACKAGE_NAME],
     data_files=[
         ("share/ament_index/resource_index/packages", ["resource/" + PACKAGE_NAME]),
@@ -20,7 +20,11 @@ setup(
     maintainer_email="alexander.xydes@navy.mil",
     description="rqt GUI plugin to visualize dot graphs.",
     license="U.S. Navy",
-    tests_require=["pytest"],
+    extras_require={
+        "test": [
+            "pytest",
+        ],
+    },
     entry_points={
         "console_scripts": ["rqt_dotgraph = rqt_dotgraph.rqt_dotgraph:main"],
     },
