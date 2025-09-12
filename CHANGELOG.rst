@@ -2,6 +2,30 @@
 Changelog for package rqt_dotgraph
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Upcoming (Unreleased)
+==================
+
+0.0.5 (2025-09-11)
+==================
+* Contributors: Alexander Xydes, Thomas Denewiler
+
+Updated
+-------
+* Use main Statick package only. All plugins are now included in the main package.
+* Simplify the Statick configuration files and invocation in Actions.
+* Switch from `tests_require` to `extras_require` with `test` entry in `setup.py`. (#26)
+
+Fixed
+-----
+* Use automatic yes to apt install prompts.
+
+  - Fixes issue with GitHub Actions timing out when installing dependencies via apt.
+
+Removed
+-------
+* Removed explicit dependency on `PySide2`.
+  The `python_qt_binding` dependency that the project actually uses covers this.
+
 0.0.4 (2024-10-02)
 ==================
 * Contributors: Alexander Xydes, Thomas Denewiler
