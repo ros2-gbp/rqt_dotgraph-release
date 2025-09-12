@@ -1,0 +1,12 @@
+Source: ros-jazzy-rqt-dotgraph
+Section: misc
+Priority: optional
+Maintainer: Alexander Xydes <alexander.l.xydes.civ@us.navy.mil>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-jazzy-ament-copyright <!nocheck>, ros-jazzy-ament-flake8 <!nocheck>, ros-jazzy-ament-pep257 <!nocheck>, ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rqt-dotgraph
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-sip-dev, ros-jazzy-ament-index-python, ros-jazzy-python-qt-binding, ros-jazzy-qt-dotgraph (>= 1.1.2), ros-jazzy-qt-gui-py-common, ros-jazzy-rqt-graph, ros-jazzy-rqt-gui, ros-jazzy-rqt-gui-py, ros-jazzy-std-msgs, shiboken2, ros-jazzy-ros-workspace
+Description: rqt GUI plugin to visualize dot graphs.
