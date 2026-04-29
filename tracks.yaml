@@ -104,5 +104,4 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/niwcpac/rqt_dotgraph.git
-    version: 0.0.5
-    version_saved: :{auto}
+    version: :{auto}
