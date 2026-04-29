@@ -1,0 +1,32 @@
+ros-rolling-rqt-dotgraph (0.0.5-2trixie) trixie; urgency=high
+
+  * Contributors: Alexander Xydes, Thomas Denewiler
+
+ -- Alexander Xydes <alexander.l.xydes.civ@us.navy.mil>  Thu, 11 Sep 2025 05:00:00 -0000
+
+ros-rolling-rqt-dotgraph (0.0.4-2trixie) trixie; urgency=high
+
+  * Contributors: Alexander Xydes, Thomas Denewiler
+
+ -- Alexander Xydes <alexander.l.xydes.civ@us.navy.mil>  Wed, 02 Oct 2024 05:00:00 -0000
+
+ros-rolling-rqt-dotgraph (0.0.3-2trixie) trixie; urgency=high
+
+  * Contributors: Alexander Xydes, Thomas Denewiler
+
+ -- Alexander Xydes <alexander.l.xydes.civ@us.navy.mil>  Wed, 02 Oct 2024 05:00:00 -0000
+
+ros-rolling-rqt-dotgraph (0.0.2-2trixie) trixie; urgency=high
+
+  * Contributors: Alexander Xydes, Thomas Denewiler
+
+ -- Alexander Xydes <alexander.l.xydes.civ@us.navy.mil>  Fri, 08 Mar 2024 06:00:00 -0000
+
+ros-rolling-rqt-dotgraph (0.0.1-2trixie) trixie; urgency=high
+
+  * Initial release of a ROS2 node and an rqt plugin for visualizing dot graph files.
+  * Contributors: Alexander Xydes
+
+ -- Alexander Xydes <alexander.l.xydes.civ@us.navy.mil>  Mon, 17 May 2021 05:00:00 -0000
+
+
