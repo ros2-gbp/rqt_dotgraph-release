@@ -1,0 +1,12 @@
+Source: ros-lyrical-rqt-dotgraph
+Section: misc
+Priority: optional
+Maintainer: Alexander Xydes <alexander.l.xydes.civ@us.navy.mil>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-lyrical-ament-copyright <!nocheck>, ros-lyrical-ament-flake8 <!nocheck>, ros-lyrical-ament-pep257 <!nocheck>, ros-lyrical-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: https://index.ros.org/p/rqt_dotgraph/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rqt-dotgraph
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-sip-dev, ros-lyrical-ament-index-python, ros-lyrical-python-qt-binding, ros-lyrical-qt-dotgraph (>= 1.1.2), ros-lyrical-qt-gui-py-common, ros-lyrical-rqt-graph, ros-lyrical-rqt-gui, ros-lyrical-rqt-gui-py, ros-lyrical-std-msgs, shiboken2, ros-lyrical-ros-workspace
+Description: rqt GUI plugin to visualize dot graphs.
